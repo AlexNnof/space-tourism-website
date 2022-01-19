@@ -40,11 +40,11 @@ function changeTabFocus(e){
                 tabFocus = 0
             }
         }else if (e.keyCode === keydownLeft){
-                tabFocus--;
-                if(tabFocus < 0){
-                    tabFocus = tabs.length - 1
-                }
+            tabFocus--;
+            if(tabFocus < 0){
+                tabFocus = tabs.length - 1
             }
+        }
     }
 
     
